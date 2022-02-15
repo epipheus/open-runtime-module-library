@@ -6,24 +6,6 @@
 
 The Open Runtime Module Library (ORML) is a community maintained collection of Substrate runtime modules.
 
-
-```mermaid
-erDiagram
-    CAR ||--o{ NAMED-DRIVER : allows
-    CAR {
-        string registrationNumber
-        string make
-        string model
-    }
-    PERSON ||--o{ NAMED-DRIVER : is
-    PERSON {
-        string firstName
-        string lastName
-        int age
-    }
-```
-
-
 ## Runtime Modules Overview
 
 - [orml-auction](./auction)
